@@ -199,6 +199,9 @@ Your shareable URL will be:
 https://<your-project>.vercel.app/com4e-2026/GenzyNews/
 ```
 
+SPA deep links are handled by `vercel.json` so routes resolve to `index.html` while
+allowing built assets to be served normally.
+
 Deep links also work, e.g.:
 ```
 https://<your-project>.vercel.app/com4e-2026/GenzyNews/iteam.php?proID=18
