@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/com4e-2026/GenzyNews/:path*",
+      "destination": "/index.html"
+    }
+  ]
+}

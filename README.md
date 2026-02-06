@@ -179,6 +179,31 @@ This is a static site that can be deployed to:
 - No database setup
 - No build configuration
 
+### Vercel CLI (Shareable URL)
+If you want a Vercel deployment with the `/com4e-2026/GenzyNews/` base path:
+
+```bash
+npm i -g vercel
+vercel login
+vercel
+vercel --prod
+```
+
+When prompted, use:
+- **Framework preset:** Vite
+- **Build command:** `npm run build`
+- **Output directory:** `dist`
+
+Your shareable URL will be:
+```
+https://<your-project>.vercel.app/com4e-2026/GenzyNews/
+```
+
+Deep links also work, e.g.:
+```
+https://<your-project>.vercel.app/com4e-2026/GenzyNews/iteam.php?proID=18
+```
+
 ## 📄 License
 
 This project is built for educational and demonstration purposes.
