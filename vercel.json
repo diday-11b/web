@@ -1,0 +1,11 @@
+{
+  "routes": [
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": "/com4e-2026/GenzyNews/.*",
+      "dest": "/index.html"
+    }
+  ]
+}
