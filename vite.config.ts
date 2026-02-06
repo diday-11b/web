@@ -3,8 +3,10 @@ import path from 'path'
 import tailwindcss from '@tailwindcss/vite'
 import react from '@vitejs/plugin-react'
 
+const basePath = process.env.VERCEL ? '/' : '/com4e-2026/GenzyNews/'
+
 export default defineConfig({
-  base: '/com4e-2026/GenzyNews/',
+  base: basePath,
   plugins: [
     // The React and Tailwind plugins are both required for Make, even if
     // Tailwind is not being actively used – do not remove them
